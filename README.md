@@ -12,8 +12,8 @@ Things you may want to cover:
   Utilizei a versão do Rails e Ruby 
   do Docker por DHH
  * Docker para Versao
-  docker volume create ruby-bundle-cache
-  alias docked='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 ghcr.io/rails/cli'
+    * docker volume create ruby-bundle-cache
+    *alias docked='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 ghcr.io/rails/cli'
 
 * Database creation
 
